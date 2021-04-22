@@ -97,35 +97,37 @@
 
 
 
-const person4 = {
+// const person4 = {
 
-    info: function (job, phone) {
-        console.log(`name ${this.name}`)
-        console.log(`surname ${this.surname}`)
-        console.log(`school is ${this.school}`)
-        console.log(`birthed in ${this.birthed}`)
-        console.log(`rating in school ${this.rating}`)
-        console.log(`mather name is ${this.mather_name}`)
-        console.log(`father name is ${this.father_name}`)
-        console.log(`job is ${job}`)
-        console.log(`phone is  ${phone}`)
+//     info: function (job, phone) {
+//         console.log(`name ${this.name}`)
+//         console.log(`surname ${this.surname}`)
+//         console.log(`school is ${this.school}`)
+//         console.log(`birthed in ${this.birthed}`)
+//         console.log(`rating in school ${this.rating}`)
+//         console.log(`mather name is ${this.mather_name}`)
+//         console.log(`father name is ${this.father_name}`)
+//         console.log(`job is ${job}`)
+//         console.log(`phone is  ${phone}`)
         
-    }
+//     }
     
-}
+// }
 
-const incy = {
-    name: `Tomas`,
-    surname: `Shelby`,
-    school: `256` ,
-    rating: `5 and 6`,
-    mather_name: `Fiona`,
-    father_name: `Shrek`,
-    birthed: `in october`
-}
+// const incy = {
+//     name: `Tomas`,
+//     surname: `Shelby`,
+//     school: `256` ,
+//     rating: `5 and 6`,
+//     mather_name: `Fiona`,
+//     father_name: `Shrek`,
+//     birthed: `in october`
+// }
+
+// person4.info.call(incy , `does not have`, `091-73-31-12`)
 
 
 
 
-person4.info.call(incy , `does not have`, `091-73-31-12`)
 
+    
